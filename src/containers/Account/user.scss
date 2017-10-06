@@ -1,0 +1,82 @@
+.user {
+    .content{
+        background-color: #151515;
+        padding: 50px;
+        img {
+            width: 100%;
+            // height: 100%;
+        }
+        .form-image1 {
+            display: block;
+        }
+        .form-image2 {
+            display: none;
+        }
+    }        
+    &-form {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        &-header {
+            font-size: 25px;
+
+        }
+        &-subheader {
+            margin-top: 5px;
+            margin-bottom: 30px;
+        }
+        &-fieldtext {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        &-field{
+            padding: 0;
+            padding-left: 10px;
+            height: 40px;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        &-checkbox{
+            margin-bottom: 20px;
+        }
+        a{
+            color: #ac2d3f;
+            margin-top: 10px;
+            &:hover{
+                color: #da6172;
+            }
+        }
+        .button {
+            text-align: center;
+            padding: 0;
+            margin-bottom: 10px;
+        }
+        .facebook {
+            background-color: #3b5998;
+            margin-top: 20px;
+            width: 100%;
+            align-items: center;
+            border: 0;
+            &:hover {
+                background-color: #5973a9;
+            }
+        }
+    }
+    @media (max-width: 768px){
+        .form-image1 {
+            display: none !important;
+        }
+        .form-image2 {
+            display: block !important;
+        }
+    }
+    @media (max-width: 570px){
+        .wrapper {
+            padding-left: 20px;
+            padding-right: 20px;
+            span {
+                font-size: 60px;
+            }
+        }
+    }
+}

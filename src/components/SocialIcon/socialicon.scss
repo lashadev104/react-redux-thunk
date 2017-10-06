@@ -1,0 +1,19 @@
+.social-icons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+
+    .social-icon {
+        width: 28px;
+        height: 28px;
+        margin: 10px;
+        color: #575756;
+        opacity: 0.5;
+
+        &:hover {
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
+}

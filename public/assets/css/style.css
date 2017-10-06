@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'GotaLight';
+    src: url('../fonts/Gota-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoThin';
+    src: url('../Roboto-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2, h3, h4, h5, span, p {
+    font-family: roboto-thin;
+    color: #E1E1E1;
+    margin: 0;
+    padding: 0;
+}
+

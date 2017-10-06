@@ -1,0 +1,40 @@
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0;
+
+    .tag {
+        background-color: #c3c1c0;
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;
+        margin-top: 0;
+        padding: 12px 10px 12px 25px;
+        border-radius: 20px;
+        color: #2B2626;
+        .fa {
+            margin-left: 10px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    span {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    &-input {
+        margin-top: 2px;
+        margin-left: 10px;
+        font-size: 20px;
+        width: 100px;
+        height: 30px;
+    }
+    @media (max-width: 780px){
+        .tag {
+            padding: 10px 8px 10px 20px;
+        }
+    }
+}

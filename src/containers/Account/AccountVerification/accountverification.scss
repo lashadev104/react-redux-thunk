@@ -1,0 +1,29 @@
+.account-verification {
+    .content{
+        background-color: #151515;
+        padding: 50px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 80%;
+            align-self: center;
+        }
+        .fa {
+            margin-top: 20px;
+            font-size: 50px;
+            color: #6ac259;
+        }
+        span{
+            font-size: 25px;
+            margin: 10px 0;
+        }
+        .button {
+            margin-top: 10px;
+            max-width: 200px;
+        }
+        
+    }
+}

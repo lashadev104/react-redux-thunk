@@ -1,0 +1,31 @@
+.home {
+    background-color: #151515;
+    &-main {
+        min-height: 700px;
+        opacity: 0.8;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .about {
+        padding: 40px 80px;
+        img {
+            width: 100%;
+        }
+        &-content {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            &-title {
+                font-size: 30px;
+                text-transform: uppercase;
+                color: #afafaf;
+                margin-bottom: 20px;
+            }
+            &-text {
+                font-size: 25px;
+                color: #848481;
+            }
+        }
+    }
+}

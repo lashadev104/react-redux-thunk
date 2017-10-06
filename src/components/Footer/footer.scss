@@ -1,0 +1,22 @@
+.footer {
+    background-color: #222121;
+    padding: 50px;
+
+    p {
+        font-size: 25px;   
+    }
+
+    .email-subscribe {
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+
+        &-input {
+            position: relative;
+            width: 50%;
+            padding-left: 10px;
+            font-size: 20px;
+        }
+    }
+    
+}

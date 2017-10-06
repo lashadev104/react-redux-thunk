@@ -1,0 +1,26 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 30px;
+    position: fixed;
+    padding: 12px 50px;
+    width: 1040px;
+    top: 100px;
+    overflow: hidden;
+    z-index: 5;
+    ul{
+        margin: 0;
+    }
+    li{
+        float: left;
+        margin-right: 15px;
+        &.active {
+            border-bottom: 1px solid #ac2d3f;
+        }
+        &:hover {
+            border-bottom: 1px solid #ac2d3f;
+        }
+    }
+    @media (max-width: 715px){
+        top: 170px;
+    }
+}
